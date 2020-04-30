@@ -4,7 +4,6 @@
   --border: #e0e0e0;
 }
 
-/* layout styles */
 nav {
   background: var(--theme);
 }
@@ -21,7 +20,6 @@ nav .brand span {
   border-bottom: 1px solid var(--border);
 }
 
-/* book styles */
 .card.book {
   display: grid;
   grid-template-areas: 'image details delete';
@@ -52,7 +50,6 @@ nav .brand span {
   bottom: 10px;
 }
 
-/* form styles */
 form .input-field {
   margin: 2rem 0;
 }

@@ -7,13 +7,13 @@ import './App.css';
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <Switch>
-        <Route exact path='/' component={Dashboard} />
-        <Route path='/about' component={About} />
-      </Switch>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Navbar />
+        <Switch>
+          <Route exact path='/' component={Dashboard} />
+          <Route path='/about' component={About} />
+        </Switch>
+     </BrowserRouter>
   );
 };
 
