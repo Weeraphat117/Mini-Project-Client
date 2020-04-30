@@ -1,5 +1,5 @@
 :root {
-  --theme: #004d40;
+  --theme: #1197e6;
   --bg-grey: #f5f5f5;
   --border: #e0e0e0;
 }
@@ -9,8 +9,8 @@ nav {
   background: var(--theme);
 }
 nav .brand {
-  font-size: 1.5rem;
-  margin-left: 1.5rem;
+  font-size: 2rem;
+  margin-left: 2rem;
 }
 nav .brand span {
   font-weight: 700;
@@ -26,20 +26,21 @@ nav .brand span {
   display: grid;
   grid-template-areas: 'image details delete';
   grid-template-columns: 80px 1fr 40px;
-  padding: 1rem;
+  padding: 0.8rem;
 }
 .book-image {
   grid-area: image;
 }
 .book-image img {
-  max-width: 50px;
+  max-width: 60px;
 }
 .book-details {
   grid-area: details;
-  color: #616161;
+  color: #141414;
 }
 .book-title {
-  font-weight: 700;
+  font-weight: 1000;
+  font-size: 1.4rem;
 }
 .book-author {
   font-size: 0.8rem;
@@ -47,8 +48,8 @@ nav .brand span {
 .book-delete {
   grid-area: delete;
   position: absolute;
-  right: 0px;
-  bottom: 0px;
+  right: 10px;
+  bottom: 10px;
 }
 
 /* form styles */

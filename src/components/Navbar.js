@@ -28,9 +28,6 @@ const Navbar = () => {
             <li>
               <Link to='/about'>About</Link>
             </li>
-            <li>
-              <Link to='/contact'>Contact</Link>
-            </li>
           </ul>
         </div>
       </nav>
@@ -44,11 +41,6 @@ const Navbar = () => {
         <li>
           <Link to='/about' className='waves-effect sidenav-close'>
             <i className='material-icons'>business</i>About
-          </Link>
-        </li>
-        <li>
-          <Link to='/contact' className='waves-effect sidenav-close'>
-            <i className='material-icons'>mail</i>Contact
           </Link>
         </li>
       </ul>

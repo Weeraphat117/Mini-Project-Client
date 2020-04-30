@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-// import { BookContext } from '../contexts/BookContext';
 import { db } from '../firebase';
 import bookThumb from '../book.png';
 

@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-// import { BookContext } from '../contexts/BookContext';
 import { db } from '../firebase';
 
 const BookForm = () => {
-  // const { addBook } = useContext(BookContext);
 
   const [book, setBook] = useState({
     title: '',
@@ -61,8 +59,7 @@ const BookForm = () => {
           <div className='input-field center'>
             <button
               type='submit'
-              className='btn waves-effect waves-light amber darken-2'
-            >
+              className='btn waves-effect waves-light amber darken-2'>
               <i className='material-icons right'>add_circle</i>Add
             </button>
           </div>
